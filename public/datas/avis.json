@@ -1,0 +1,34 @@
+[
+    {
+        "id": "1",
+        "auteur": "Louise M.",
+        "note": 5,
+        "texte": "Une vraie découverte ! Les plats sont délicieux, équilibrés et on sent vraiment la qualité des ingrédients. J’ai commandé plusieurs fois et je n’ai jamais été déçue. Je recommande à 100% !",
+        "bg": "bg-black",
+        "text": "text-white"
+    },
+    {
+        "id": "2",
+        "auteur": "Camille T.",
+        "note": 5,
+        "texte": "Nous avons fait appel à Kadibio pour un événement et tout était parfait ! Nos invités ont adoré. Un service impeccable et une cuisine bio !",
+        "bg": "bg-[#98B7C9]",
+        "text": "text-black"
+    },
+    {
+        "id": "3",
+        "auteur": "Julien R.",
+        "note": 5,
+        "texte": "Enfin un traiteur qui allie bio, goût et praticité ! Les plats sont variés, bien présentés et surtout ultra savoureux.",
+        "bg": "bg-[#BAD2E2]",
+        "text": "text-black"
+    },
+    {
+        "id": "4",
+        "auteur": "Stéphane L.",
+        "note": 4,
+        "texte": "J’ai testé leurs repas pour la semaine, c’est bon, frais et ça me fait gagner du temps. Mention spéciale pour les plats végétariens.",
+        "bg": "bg-white border border-[#BAD2E2]",
+        "text": "text-black"
+    }
+]

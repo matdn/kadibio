@@ -1,0 +1,31 @@
+datasource db {
+  provider = "postgresql" // ou "sqlite" pour du local
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Page {
+  id        String  @id @default(uuid())
+  title     String
+  slug      String  @unique
+  content   String
+  createdAt DateTime @default(now())
+}
+
+model Settings {
+  id          String  @id @default(uuid())
+  siteTitle   String
+  description String
+}
+
+model Plat {
+  id          String   @id @default(uuid())
+  name        String
+  description String?
+  image       String?
+  price       Float    // Ce champ est obligatoire !
+  createdAt   DateTime @default(now())
+}

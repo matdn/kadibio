@@ -1,0 +1,229 @@
+[
+    {
+        "category": "Entrées",
+        "items": [
+            {
+                "subcategory": "Soupes",
+                "plats": [
+                    {
+                        "id": "entree-soupe-1",
+                        "name": "Soupe aux deux courges",
+                        "description": "Potiron et butternut",
+                        "image": "/images/soupeDeCourge.jpg"
+                    },
+                    {
+                        "id": "entree-soupe-2",
+                        "name": "Soupe lentilles corail et fenouil",
+                        "description": "",
+                        "image": "/images/soupeDeLantille.jpg"
+                    },
+                    {
+                        "id": "entree-soupe-3",
+                        "name": "Soupe harira aux légumes secs",
+                        "description": "Option viande, poulet ou végétarienne",
+                        "image": "/images/soupeHarira.jpg"
+                    }
+                ]
+            },
+            {
+                "subcategory": "Salades",
+                "plats": [
+                    {
+                        "id": "entree-salade-1",
+                        "name": "Salade de lentilles",
+                        "description": "Avec feta",
+                        "image": "/images/saladeLantille.jpg"
+                    },
+                    {
+                        "id": "entree-salade-2",
+                        "name": "Salade PDT méditerranéenne",
+                        "description": "Olives vertes et noires",
+                        "image": "/images/saladeMediteranenne.jpg"
+                    },
+                    {
+                        "id": "entree-salade-3",
+                        "name": "Salade vitalité",
+                        "description": "Chou rouge, blanc, carotte, fenouil, baies de goji, canneberges",
+                        "image": "/images/saladeVitalité.jpg"
+                    },
+                    {
+                        "id": "entree-salade-4",
+                        "name": "Salade de carottes marinées",
+                        "description": "",
+                        "image": "/images/saladeCarotte.jpg"
+                    },
+                    {
+                        "id": "entree-salade-5",
+                        "name": "Salade vitaminée aux agrumes et carottes",
+                        "description": "Oranges, citrons, baies de canneberge, amandes",
+                        "image": "/images/saladeAgrumes.jpg"
+                    },
+                    {
+                        "id": "entree-salade-6",
+                        "name": "Maakouda",
+                        "description": "Galettes de pommes de terre",
+                        "image": "/images/maakouda.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Plats",
+        "items": [
+            {
+                "subcategory": "Couscous",
+                "plats": [
+                    {
+                        "id": "plat-couscous-1",
+                        "name": "Couscous aux légumes de saison",
+                        "description": "Semoule de blé ou semoule de sarrasin garantie sans gluten",
+                        "image": "/images/couscous.jpg"
+                    }
+                ]
+            },
+            {
+                "subcategory": "Tajines",
+                "plats": [
+                    {
+                        "id": "plat-tajine-1",
+                        "name": "Tajine de poulet",
+                        "description": "Olives vertes, citrons confits",
+                        "image": "/images/tajine-poulet.jpg"
+                    },
+                    {
+                        "id": "plat-tajine-2",
+                        "name": "Tajine de boulettes de kefta",
+                        "description": "Sauce tomate maison",
+                        "image": "/images/tajine-kefta.jpg"
+                    },
+                    {
+                        "id": "plat-tajine-3",
+                        "name": "Tajine de viande aux légumes",
+                        "description": "Légumes de saison",
+                        "image": "/images/tajine-viande.jpg"
+                    },
+                    {
+                        "id": "plat-tajine-4",
+                        "name": "Tajine végétarien",
+                        "description": "Légumes et seitan",
+                        "image": "/images/tajine-veggie.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Desserts",
+        "items": [
+            {
+                "subcategory": "Pâtisseries",
+                "plats": [
+                    {
+                        "id": "dessert-1",
+                        "name": "Corne de gazelle",
+                        "description": "Pâte d’amande, fleur d’oranger, cannelle (contient du gluten)",
+                        "image": "/images/corne-gazelle.jpg"
+                    },
+                    {
+                        "id": "dessert-2",
+                        "name": "Briouate",
+                        "description": "Triangle au miel et pâte d’amande",
+                        "image": "/images/briouate.jpg"
+                    },
+                    {
+                        "id": "dessert-3",
+                        "name": "Feekas ou croquants aux amandes",
+                        "description": "Farine de blé, petit épeautre, amandes, sésame, anis",
+                        "image": "/images/feekas.jpg"
+                    }
+                ]
+            },
+            {
+                "subcategory": "Verrines et fruits",
+                "plats": [
+                    {
+                        "id": "dessert-4",
+                        "name": "Dessert végétal aux graines de chia",
+                        "description": "Chia, coulis mangue, fruits de la passion",
+                        "image": "/images/chia.jpg"
+                    },
+                    {
+                        "id": "dessert-5",
+                        "name": "Compotée de mangue",
+                        "description": "Avec croquants aux amandes",
+                        "image": "/images/mangue-compotee.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Boissons",
+        "items": [
+            {
+                "subcategory": "Boissons fermentées",
+                "plats": [
+                    {
+                        "id": "boisson-1",
+                        "name": "Kombucha",
+                        "description": "",
+                        "image": "/images/kombucha.jpg"
+                    },
+                    {
+                        "id": "boisson-2",
+                        "name": "Kéfir",
+                        "description": "",
+                        "image": "/images/kefir.jpg"
+                    },
+                    {
+                        "id": "boisson-3",
+                        "name": "Bières sans alcool",
+                        "description": "",
+                        "image": "/images/bieres-sans-alcool.jpg"
+                    }
+                ]
+            },
+            {
+                "subcategory": "Jus et thés",
+                "plats": [
+                    {
+                        "id": "boisson-4",
+                        "name": "Thé à la menthe",
+                        "description": "",
+                        "image": "/images/the-menthe.jpg"
+                    },
+                    {
+                        "id": "boisson-5",
+                        "name": "Jus maison",
+                        "description": "Gingembre, citron, pamplemousse-citron, grenade",
+                        "image": "/images/jus.jpg"
+                    }
+                ]
+            },
+            {
+                "subcategory": "Smoothies",
+                "plats": [
+                    {
+                        "id": "boisson-6",
+                        "name": "Smoothie Vitalité",
+                        "description": "Carotte, gingembre, orange",
+                        "image": "/images/smoothie-vitalite.jpg"
+                    },
+                    {
+                        "id": "boisson-7",
+                        "name": "Smoothie Détox",
+                        "description": "Mangue, coco, pousses d’épinard, gingembre",
+                        "image": "/images/smoothie-detox.jpg"
+                    },
+                    {
+                        "id": "boisson-8",
+                        "name": "Smoothie Énergisant",
+                        "description": "Gingembre",
+                        "image": "/images/smoothie-energie.jpg"
+                    }
+                ]
+            }
+        ]
+    }
+]
