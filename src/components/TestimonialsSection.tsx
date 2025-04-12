@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Star } from "lucide-react";
 import avisData from "../../public/datas/avis.json";
 
@@ -15,14 +15,16 @@ export default function TestimonialsSection() {
     const row1Ref = useRef<HTMLDivElement>(null);
     const row2Ref = useRef<HTMLDivElement>(null);
 
+    const [paused, setPaused] = useState(false);
+
     useEffect(() => {
         let animFrame: number;
         let x1 = 0, x2 = 0;
 
         const loop = () => {
-            if (row1Ref.current && row2Ref.current) {
-                x1 -= 0.5;
-                x2 += 0.5;
+            if (!paused && row1Ref.current && row2Ref.current) {
+                x1 -= 0.6;
+                x2 -= 0.3;
 
                 const resetPoint1 = row1Ref.current.scrollWidth / 2;
                 const resetPoint2 = row2Ref.current.scrollWidth / 2;
@@ -39,10 +41,16 @@ export default function TestimonialsSection() {
 
         loop();
         return () => cancelAnimationFrame(animFrame);
-    }, []);
+    }, [paused]);
+
+
 
     return (
-        <section className="py-20 bg-[#F7F6F0] overflow-hidden">
+        <section
+            className="py-20 bg-[#F7F6F0] overflow-hidden"
+            onMouseEnter={() => setPaused(true)}
+            onMouseLeave={() => setPaused(false)}
+        >
             <div className="text-center mb-12">
                 <p className="text-4xl font-semibold">Ils ont goûté, ils ont adoré !</p>
                 <p className="text-xl mt-2">Découvrez ce que nos clients pensent de Kadibio</p>
@@ -64,10 +72,9 @@ export default function TestimonialsSection() {
                 </div>
             </div>
 
-            {/* LIGNE 2 */}
             <div className="overflow-hidden mt-10">
                 <div ref={row2Ref} className="flex whitespace-nowrap w-max gap-6 will-change-transform">
-                    {[...avisData, ...avisData].map((avis, i) => (
+                    {[...avisData, ...avisData].reverse().map((avis, i) => (
                         <div key={`bottom-${i}`} className={`min-w-[300px] max-w-md p-6 rounded-xl ${avis.bg} ${avis.text}`}>
                             <Stars count={avis.note} />
                             <p className="font-semibold mt-2">– {avis.auteur}</p>

@@ -1,4 +1,5 @@
 "use client";
+
 import { Button } from "@/components/ui/button";
 import "keen-slider/keen-slider.min.css";
 import { useKeenSlider } from "keen-slider/react";
@@ -60,14 +61,18 @@ export default function MenuSection() {
     const borderColors = ["#222220", "#98B7C9", "#BAA9C0"];
 
     return (
-        <section className="text-center py-16 bg-gray-50">
-            <h2 className="text-4xl font-bold text-gray-800">Nos Menus</h2>
-            <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
+        <section className="bg-[#F7F6F0] text-center py-16">
+            <h2 className="text-[2.5rem] md:text-[3rem] font-bold text-[#98B7C9]">Nos Menus</h2>
+            <p className="text-[#98B7C9] mt-4 max-w-2xl mx-auto text-base md:text-lg">
                 Laissez-vous inspirer par nos créations gourmandes ! Découvrez en images nos plats bio,
                 préparés avec passion et savoir-faire, pour éveiller vos papilles.
             </p>
 
-            <Button className="mt-6">voir le menu</Button>
+            <a href="/menu">
+                <button className="mt-6 px-6 py-2 bg-[#98B7C9] text-[#222220] rounded-full text-sm font-medium hover:bg-[#222220] hover:text-[#F7F6F0] transition">
+                    voir le menu
+                </button>
+            </a>
 
             {/* Slider */}
             <div className="mt-12 text-left">
@@ -75,23 +80,28 @@ export default function MenuSection() {
                     {previewPlats.map((plat, index) => (
                         <div key={plat.id} className="keen-slider__slide">
                             <div
-                                className="bg-transparent rounded-xl overflow-hidden hover:shadow-md transition-all duration-300 border-[2px]"
+                                className="bg-white rounded-xl overflow-hidden hover:shadow-md transition-all duration-300 border-[2px]"
                                 style={{ borderColor: borderColors[index % 3] }}
                             >
                                 <img
                                     src={plat.image}
                                     alt={plat.name}
                                     className="w-full h-48 object-cover"
+                                    onError={(e) => {
+                                        const target = e.currentTarget;
+                                        target.onerror = null;
+                                        target.src = "/images/placeholder.jpg";
+                                    }}
                                 />
                                 <div className="p-4">
-                                    <h4 className="text-md font-bold text-gray-800">{plat.name}</h4>
+                                    <h4 className="text-md font-bold text-[#222220]">{plat.name}</h4>
                                     <p className="text-sm text-gray-600 mt-2">{plat.description}</p>
                                     <div className="mt-4">
                                         <a
-                                            href="#"
-                                            className="inline-flex items-center text-sm font-medium text-black hover:underline group"
+                                            href="/contact"
+                                            className="inline-flex items-center text-sm font-semibold text-[#222220] hover:underline group"
                                         >
-                                            cammander
+                                            commander
                                             <span className="ml-1 transition-transform group-hover:translate-x-1">→</span>
                                         </a>
                                     </div>

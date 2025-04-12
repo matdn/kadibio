@@ -7,7 +7,7 @@ const About: React.FC = () => {
         <section className="bg-[#98B7C9] py-16 px-8">
             <div className="container mx-auto flex flex-col md:flex-row items-center gap-10 bg-[#F7F6F0] rounded-lg shadow-lg overflow-hidden p-6">
                 {/* Image */}
-                <div className="w-full md:w-1/2 flex items-center justify-center">
+                <div className="w-full md:w-1/2 flex items-center justify-start">
                     <Image
                         src="/images/kadijaChef.png"
                         alt="Chef préparant un plat bio"
