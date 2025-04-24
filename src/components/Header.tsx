@@ -8,11 +8,11 @@ const Header: React.FC = () => {
     const [isMobileOpen, setIsMobileOpen] = useState(false);
 
     const navItems = [
-        { label: "Accueil", href: "/about" },
-        { label: "Traiteur", href: "/services" },
+        { label: "Accueil", href: "/" },
+        { label: "Traiteur", href: "/about" },
         { label: "Menu", href: "/menu" },
         { label: "Galerie", href: "/galerie" },
-        { label: "Contact", href: "/contact" },
+        { label: "Contact", href: "/#contact" },
     ];
 
     return (

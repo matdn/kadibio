@@ -1,46 +1,46 @@
 [
     {
-        "src": "/images/galerie/galerie1.jpg",
+        "src": "/images/image1.jpeg",
         "alt": "Tajine aux légumes de saison",
         "ratio": "aspect-[4/3]"
     },
     {
-        "src": "/images/galerie/galerie2.jpg",
+        "src": "/images/image3.jpeg",
         "alt": "Buffet coloré de salades bio",
         "ratio": "aspect-[3/4]"
     },
     {
-        "src": "/images/galerie/galerie3.jpg",
+        "src": "/images/image4.jpeg",
         "alt": "Dessert végétal à la mangue",
         "ratio": "aspect-[1/1]"
     },
     {
-        "src": "/images/galerie/galerie4.jpg",
+        "src": "/images/image5.jpeg",
         "alt": "Kefta sauce tomate maison",
         "ratio": "aspect-[16/9]"
     },
     {
-        "src": "/images/galerie/galerie5.jpg",
+        "src": "/images/image6.jpeg",
         "alt": "Salade vitalité multicolore",
         "ratio": "aspect-[2/3]"
     },
     {
-        "src": "/images/galerie/galerie6.jpg",
+        "src": "/images/image7.jpeg",
         "alt": "Couscous aux légumes",
         "ratio": "aspect-[3/2]"
     },
     {
-        "src": "/images/galerie/galerie7.jpg",
+        "src": "/images/image8.jpeg",
         "alt": "Présentation traiteur événementiel",
         "ratio": "aspect-[5/4]"
     },
     {
-        "src": "/images/galerie/galerie8.jpg",
+        "src": "/images/image9.jpeg",
         "alt": "Boissons fermentées maison",
         "ratio": "aspect-[1/1]"
     },
     {
-        "src": "/images/galerie/galerie9.jpg",
+        "src": "/images/image20.jpeg",
         "alt": "Buffet de desserts variés",
         "ratio": "aspect-[4/5]"
     }

@@ -6,9 +6,9 @@ const Footer: React.FC = () => {
         <footer className="w-full">
             {/* Bande supérieure réseaux sociaux */}
             <div className="bg-[#98B7C9] text-black py-4 px-6 flex justify-between items-center text-sm font-medium uppercase tracking-wide">
-                <span>pinterest</span>
+                <a href="https://www.tiktok.com/@khadi_cheffe?_t=ZN-8vlqSnFyjd0&_r=1"><span>tik tok</span></a>
                 <span className="text-lg font-bold">Suivez-nous</span>
-                <span>instagram</span>
+                <a href="https://www.instagram.com/cheffekadi?igsh=M2h3MDgzYm85dXQy"><span>instagram</span></a>
             </div>
 
             {/* Corps du footer */}

@@ -7,7 +7,7 @@ export default function GaleriePage() {
             <SecondaryHero
                 title="Galerie"
                 subtitle="Un aperçu en images de nos créations, nos événements et nos plats savoureux, bio et faits maison."
-                backgroundImage="/images/galerieHeader.jpg"
+                backgroundImage="/images/image8.jpeg"
             />
             <section className="px-6 py-16 max-w-7xl mx-auto">
                 <GalleryGrid />

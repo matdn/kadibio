@@ -28,7 +28,7 @@ const MainMenu = () => {
     const [selectedCategoryIndex, setSelectedCategoryIndex] = useState<number>(0);
 
     useEffect(() => {
-        fetch("/datas/plats.json")
+        fetch("/datas/plats_avril_septembre.json")
             .then((res) => res.json())
             .then((data) => setMenu(data));
     }, []);

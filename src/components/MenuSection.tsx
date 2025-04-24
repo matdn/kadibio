@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import "keen-slider/keen-slider.min.css";
 import { useKeenSlider } from "keen-slider/react";
 import { useEffect, useState } from "react";
-import menuData from "../../public/datas/plats.json";
+import menuData from "../../public/datas/plats_avril_septembre.json";
 
 interface Plat {
     id: string;

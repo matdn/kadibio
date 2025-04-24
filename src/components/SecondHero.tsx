@@ -19,7 +19,7 @@ const SecondaryHero = ({ title, subtitle, backgroundImage }: SecondaryHeroProps)
             />
             <div className="absolute inset-0 bg-black/40 z-0" />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center z-10 px-6">
-                <h1 className="font-norman text-5xl md:text-7xl font-light">
+                <h1 className="font-norman text-7xl md:text-7xl font-light pb-8">
                     {title}
                 </h1>
                 {subtitle && (

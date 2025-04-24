@@ -56,6 +56,12 @@
   }
 }
 
+h1 {
+  font-family: Norman;
+  color: #F7F6F0;
+  /* font-size: 6.5rem; */
+}
+
 :root {
   --radius: 0.625rem;
   --background: oklch(1 0 0);

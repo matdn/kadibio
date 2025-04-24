@@ -31,14 +31,14 @@ export default function ContactSection() {
     };
 
     return (
-        <section className="bg-[#F7F6F0] py-20 px-6">
+        <section id="contact" className="bg-[#F7F6F0] py-20 px-6">
             <div className="container mx-auto grid md:grid-cols-2 gap-12">
                 {/* WhatsApp */}
                 <div className="bg-[#98B7C9] p-8 rounded-2xl shadow-md flex flex-col justify-center items-start text-white">
                     <h2 className="text-3xl font-bold mb-4">Commander directement</h2>
                     <p className="mb-6 text-lg">Contacte nous par WhatsApp pour passer commande simplement !</p>
                     <a
-                        href="https://wa.me/33612345678"
+                        href="https://wa.me/33650946708"
                         target="_blank"
                         className="bg-black text-white px-6 py-3 rounded-xl font-semibold hover:scale-105 transition-transform"
                     >
