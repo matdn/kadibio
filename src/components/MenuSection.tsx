@@ -1,5 +1,4 @@
 "use client";
-
 import { Button } from "@/components/ui/button";
 import "keen-slider/keen-slider.min.css";
 import { useKeenSlider } from "keen-slider/react";
@@ -64,7 +63,7 @@ export default function MenuSection() {
         <section className="bg-[#F7F6F0] text-center py-16">
             <h2 className="text-[2.5rem] md:text-[3rem] font-bold text-[#98B7C9]">Nos Menus</h2>
             <p className="text-[#98B7C9] mt-4 max-w-2xl mx-auto text-base md:text-lg">
-                Laissez-vous inspirer par nos créations gourmandes ! Découvrez en images nos plats bio,
+                Laissez-vous inspirer par nos créations gourmandes ! Découvrez nos plats bio,
                 préparés avec passion et savoir-faire, pour éveiller vos papilles.
             </p>
 
@@ -80,31 +79,21 @@ export default function MenuSection() {
                     {previewPlats.map((plat, index) => (
                         <div key={plat.id} className="keen-slider__slide">
                             <div
-                                className="bg-white rounded-xl overflow-hidden hover:shadow-md transition-all duration-300 border-[2px]"
+                                className="bg-white rounded-xl p-6 flex flex-col justify-between hover:shadow-md transition-all duration-300 border-[2px] h-full min-h-[220px]"
                                 style={{ borderColor: borderColors[index % 3] }}
                             >
-                                <img
-                                    src={plat.image}
-                                    alt={plat.name}
-                                    className="w-full h-48 object-cover"
-                                    onError={(e) => {
-                                        const target = e.currentTarget;
-                                        target.onerror = null;
-                                        target.src = "/images/IMG_2128.jpeg";
-                                    }}
-                                />
-                                <div className="p-4">
-                                    <h4 className="text-md font-bold text-[#222220]">{plat.name}</h4>
-                                    <p className="text-sm text-gray-600 mt-2">{plat.description}</p>
-                                    <div className="mt-4">
-                                        <a
-                                            href="/contact"
-                                            className="inline-flex items-center text-sm font-semibold text-[#222220] hover:underline group"
-                                        >
-                                            commander
-                                            <span className="ml-1 transition-transform group-hover:translate-x-1">→</span>
-                                        </a>
-                                    </div>
+                                <div className="flex flex-col justify-center items-start h-full space-y-4">
+                                    <h4 className="text-lg font-bold text-[#222220]">{plat.name}</h4>
+                                    <p className="text-sm text-gray-600">{plat.description}</p>
+                                </div>
+                                <div className="mt-6">
+                                    <a
+                                        href="/contact"
+                                        className="inline-flex items-center text-sm font-semibold text-[#222220] hover:underline group"
+                                    >
+                                        commander
+                                        <span className="ml-1 transition-transform group-hover:translate-x-1">→</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
