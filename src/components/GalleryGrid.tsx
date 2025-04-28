@@ -49,7 +49,7 @@ const GalleryGrid = () => {
                             onError={(e) => {
                                 const target = e.currentTarget;
                                 target.onerror = null;
-                                target.src = "/images/placeholder.jpg";
+                                target.src = "/images/IMG_2128.jpeg";
                             }}
                         />
                     </div>

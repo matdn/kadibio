@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
 
                 {/* Logo */}
                 <div className="flex justify-start md:justify-end font-norman">
-                    <span className="text-5xl tracking-widest text-white font-norman">
+                    <span className="logo text-5xl tracking-widest text-white font-norman">
                         KADIBIO
                     </span>
                 </div>

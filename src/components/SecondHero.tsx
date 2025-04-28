@@ -15,7 +15,7 @@ const SecondaryHero = ({ title, subtitle, backgroundImage }: SecondaryHeroProps)
             <img
                 src={backgroundImage}
                 alt="Image de fond"
-                className="absolute inset-0 w-full h-full object-cover grayscale"
+                className="absolute inset-0 w-full h-full object-cover grayscale "
             />
             <div className="absolute inset-0 bg-black/40 z-0" />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center z-10 px-6">

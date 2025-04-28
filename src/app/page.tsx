@@ -7,6 +7,7 @@ import MenuSection from "@/components/MenuSection";
 import Solutions from "@/components/Solutions";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import Footer from "@/components/Footer";
+import ReviewSection from "@/components/ReviewSection";
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
 
@@ -40,7 +41,8 @@ export default function Home() {
       <About />
       <MenuSection />
       <Gallery />
-      <TestimonialsSection />
+      <ReviewSection />
+      {/* <TestimonialsSection /> */}
       <ContactSection />
     </>
 

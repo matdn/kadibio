@@ -8,7 +8,7 @@ export default function AboutPage() {
             <SecondaryHero
                 title="À propos de Kadibio"
                 subtitle="Une histoire de transmission, d’amour du goût et de cuisine responsable. Découvrez notre univers."
-                backgroundImage="/images/kadijaChef.png" // adapte à ton image
+                backgroundImage="/images/IMG_1472.jpeg" // adapte à ton image
             />
             <CulinaryIntro />
         </main>

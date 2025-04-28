@@ -6,6 +6,12 @@
         "subcategory": "Salades fraîches",
         "plats": [
           {
+            "id": "entree-salade-4",
+            "name": "Salade de carottes marinées",
+            "description": "feta, sésame - 9,90 EUR",
+            "image": "/images/image12.jpeg"
+          },
+          {
             "id": "entree-salade-1",
             "name": "Salade de lentilles",
             "description": "feta, baies de canneberge, poivrons rouges - 9,90 EUR",
@@ -23,12 +29,7 @@
             "description": "chou rouge, chou blanc, carottes, fenouil, baies de goji et de canneberge - 9,90 EUR",
             "image": "/images/saladeVitalité.jpg"
           },
-          {
-            "id": "entree-salade-4",
-            "name": "Salade de carottes marinées",
-            "description": "feta, sésame - 9,90 EUR",
-            "image": "/images/saladeCarotte.jpg"
-          },
+
           {
             "id": "entree-salade-5",
             "name": "Salade vitaminée aux agrumes et carottes",
@@ -61,7 +62,7 @@
             "id": "plat-couscous-1",
             "name": "Couscous aux légumes de saison",
             "description": "Option sans gluten : semoule de sarrasin - 25 EUR / personne",
-            "image": "/images/couscous.jpg"
+            "image": "/images/image7.jpeg"
           },
           {
             "id": "plat-couscous-2",
@@ -142,7 +143,7 @@
             "id": "dessert-1",
             "name": "Briouates",
             "description": "miel, pâte d'amande, triangles croustillants - 5 pour 7 EUR, 10 pour 12 EUR",
-            "image": "/images/briouate.jpg"
+            "image": "/images/image6.jpeg"
           },
           {
             "id": "dessert-2",

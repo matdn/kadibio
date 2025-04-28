@@ -58,11 +58,10 @@ const MainMenu = () => {
 
     return (
         <section className="py-16 px-4 space-y-16 bg-[#F7F6F0]">
-
             {/* Tuiles de navigation */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-5xl mx-auto">
+            <div className="grid grid-cols-2 sm:grid-cols-3 h-[20dvh] grayscale-100 gap-4 max-w-5xl mx-auto">
                 {menu.map((cat, i) => {
-                    const image = cat.items[0]?.plats[0]?.image || "/images/placeholder.jpg";
+                    const image = cat.items[0]?.plats[0]?.image || "/images/IMG_2128.jpeg";
                     const isActive = selectedCategoryIndex === i;
 
                     return (
@@ -70,7 +69,7 @@ const MainMenu = () => {
                             key={i}
                             onClick={() => setSelectedCategoryIndex(i)}
                             className={cn(
-                                "rounded-xl overflow-hidden shadow group transition border-1",
+                                "relative rounded-xl overflow-hidden shadow group transition border-1",
                                 isActive ? "border-black" : "border-transparent hover:border-black"
                             )}
                         >
@@ -81,11 +80,18 @@ const MainMenu = () => {
                                 onError={(e) => {
                                     const target = e.currentTarget;
                                     target.onerror = null;
-                                    target.src = "/images/placeholder.jpg";
+                                    target.src = "/images/IMG_2128.jpeg";
                                 }}
                             />
-                            <p className=" text-center text-lg text-[#F7F6F0] max-w-1/2 font-semibold relative left-2 bottom-12 w-auto">{cat.category}</p>
+                            {/* Gradient overlay */}
+                            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+
+                            {/* Texte */}
+                            <p className="absolute bottom-4 left-4 text-lg text-white font-semibold">
+                                {cat.category}
+                            </p>
                         </button>
+
                     );
                 })}
             </div>
@@ -103,33 +109,19 @@ const MainMenu = () => {
                     <div className={cn("grid grid-cols-1 md:grid-cols-5 gap-6 items-start")}>
                         {isReversed ? (
                             <>
+                                {/* Grille de plats */}
                                 <div className="col-span-3 h-full">
                                     <div className="grid grid-cols-2 gap-4 h-full">
                                         {chunks[index]?.map((plat) => (
                                             <div
                                                 key={plat.id}
-                                                className="bg-[#F7F6F0] rounded-xl overflow-hidden h-full flex flex-col transition border-2"
+                                                className="bg-[#F7F6F0] rounded-xl p-4 flex flex-col justify-between shadow border-2 border-[#98B7C9] h-full"
                                             >
-                                                <img
-                                                    src={plat.image}
-                                                    alt={plat.name}
-                                                    className="w-full h-32 object-cover max-h-48"
-                                                    onError={(e) => {
-                                                        const target = e.currentTarget;
-                                                        target.onerror = null;
-                                                        target.src = "/images/placeholder.jpg";
-                                                    }}
-                                                />
-                                                <div className="p-4 space-y-1 flex-1 flex flex-col justify-between">
-                                                    <div>
-                                                        <h4 className="font-bold text-sm">{plat.name}</h4>
-                                                        {plat.description && (
-                                                            <p className="text-sm text-gray-600">{plat.description}</p>
-                                                        )}
-                                                    </div>
-                                                    <button className="text-black text-sm font-semibold mt-1">
-                                                        En savoir plus
-                                                    </button>
+                                                <div>
+                                                    <h4 className="font-bold text-lg text-black mb-2">{plat.name}</h4>
+                                                    {plat.description && (
+                                                        <p className="text-sm text-gray-600">{plat.description}</p>
+                                                    )}
                                                 </div>
                                             </div>
                                         ))}
@@ -147,72 +139,62 @@ const MainMenu = () => {
                                                 ></span>
                                             ))}
                                         </div>
-                                        <div className="flex gap-4">
-                                            <button onClick={() => handlePrev(selectedCategoryIndex, chunks.length)}>
-                                                <ChevronLeft />
-                                            </button>
-                                            <button onClick={() => handleNext(selectedCategoryIndex, chunks.length)}>
-                                                <ChevronRight />
-                                            </button>
-                                        </div>
+                                        {chunks.length > 1 && (
+                                            <div className="flex gap-4">
+                                                <button onClick={() => handlePrev(selectedCategoryIndex, chunks.length)}>
+                                                    <ChevronLeft />
+                                                </button>
+                                                <button onClick={() => handleNext(selectedCategoryIndex, chunks.length)}>
+                                                    <ChevronRight />
+                                                </button>
+                                            </div>
+                                        )}
                                     </div>
                                 </div>
 
+                                {/* Grande image */}
                                 <div className="col-span-2 h-full">
                                     <img
-                                        src={allPlats[0]?.image}
+                                        src={allPlats[0]?.image || "/images/IMG_2128.jpeg"}
                                         alt={selectedCategory.category}
                                         className="rounded-xl object-cover w-full aspect-square h-full"
                                         onError={(e) => {
                                             const target = e.currentTarget;
                                             target.onerror = null;
-                                            target.src = "/images/placeholder.jpg";
+                                            target.src = "/images/IMG_2128.jpeg";
                                         }}
                                     />
                                 </div>
                             </>
                         ) : (
                             <>
+                                {/* Grande image */}
                                 <div className="col-span-2 h-full">
                                     <img
-                                        src={allPlats[0]?.image}
+                                        src={allPlats[0]?.image || "/images/IMG_2128.jpeg"}
                                         alt={selectedCategory.category}
                                         className="rounded-xl object-cover w-full aspect-square h-full"
                                         onError={(e) => {
                                             const target = e.currentTarget;
                                             target.onerror = null;
-                                            target.src = "/images/placeholder.jpg";
+                                            target.src = "/images/IMG_2128.jpeg";
                                         }}
                                     />
                                 </div>
 
+                                {/* Grille de plats */}
                                 <div className="col-span-3 h-full">
                                     <div className="grid grid-cols-2 gap-4 h-full">
                                         {chunks[index]?.map((plat) => (
                                             <div
                                                 key={plat.id}
-                                                className="bg-[#F7F6F0] rounded-xl overflow-hidden h-full flex flex-col transition border-2"
+                                                className="bg-[#F7F6F0] rounded-xl p-4 flex flex-col justify-between shadow border-2 border-[#98B7C9] h-full"
                                             >
-                                                <img
-                                                    src={plat.image}
-                                                    alt={plat.name}
-                                                    className="w-full h-42 object-cover max-h-48"
-                                                    onError={(e) => {
-                                                        const target = e.currentTarget;
-                                                        target.onerror = null;
-                                                        target.src = "/images/placeholder.jpg";
-                                                    }}
-                                                />
-                                                <div className="p-4 space-y-1 flex-1 flex flex-col justify-between">
-                                                    <div>
-                                                        <h4 className="font-bold text-sm">{plat.name}</h4>
-                                                        {plat.description && (
-                                                            <p className="text-sm text-gray-600">{plat.description}</p>
-                                                        )}
-                                                    </div>
-                                                    <button className="text-black text-sm font-semibold">
-                                                        En savoir plus
-                                                    </button>
+                                                <div>
+                                                    <h4 className="font-bold text-lg text-black mb-2">{plat.name}</h4>
+                                                    {plat.description && (
+                                                        <p className="text-sm text-gray-600">{plat.description}</p>
+                                                    )}
                                                 </div>
                                             </div>
                                         ))}
@@ -230,14 +212,17 @@ const MainMenu = () => {
                                                 ></span>
                                             ))}
                                         </div>
-                                        <div className="flex gap-4">
-                                            <button onClick={() => handlePrev(selectedCategoryIndex, chunks.length)}>
-                                                <ChevronLeft />
-                                            </button>
-                                            <button onClick={() => handleNext(selectedCategoryIndex, chunks.length)}>
-                                                <ChevronRight />
-                                            </button>
-                                        </div>
+                                        {chunks.length > 1 && (
+                                            <div className="flex gap-4">
+                                                <button onClick={() => handlePrev(selectedCategoryIndex, chunks.length)}>
+                                                    <ChevronLeft />
+                                                </button>
+                                                <button onClick={() => handleNext(selectedCategoryIndex, chunks.length)}>
+                                                    <ChevronRight />
+                                                </button>
+                                            </div>
+                                        )}
+
                                     </div>
                                 </div>
                             </>
@@ -247,7 +232,6 @@ const MainMenu = () => {
             )}
             <ContactSection />
         </section>
-
     );
 };
 

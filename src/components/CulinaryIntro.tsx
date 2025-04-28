@@ -16,11 +16,11 @@ export default function CulinaryIntro() {
             </div>
 
             {/* Colonne droite - scrollable */}
-            <div className="w-full md:w-2/3 h-[100vh] overflow-y-auto p-6 md:p-12 space-y-12">
+            <div className="w-full md:w-2/3 p-6 md:p-12 space-y-12">
                 {/* Bloc 1 */}
                 <div>
                     <h3 className="font-semibold text-lg mb-2">Une histoire de passion et de transmission</h3>
-                    <p className="text-sm leading-relaxed text-[#222220]">
+                    <p className="text-[1.8dvh] leading-relaxed text-[#222220]">
                         Depuis des générations, les recettes de nos mères se transmettent avec minutie et délicatesse.
                         Chaque plat raconte une histoire, un savoir-faire ancestral enrichi par une recherche constante d’excellence.
                         Diplômée de l’École Ducasse, forte de plus de 20 ans d’expérience dans le commerce bio et naturopathe de formation,
@@ -31,7 +31,7 @@ export default function CulinaryIntro() {
                 {/* Bloc 2 */}
                 <div>
                     <h3 className="font-semibold text-lg mb-2">Une cuisine d’exception, entre tradition et modernité</h3>
-                    <p className="text-sm leading-relaxed text-[#222220]">
+                    <p className="text-[1.8dvh] leading-relaxed text-[#222220]">
                         ( Ici, le bio n’est pas une tendance, mais une évidence. )
                         Tous nos produits sont frais, de saison et 100% biologiques, soigneusement sélectionnés pour leur qualité exceptionnelle.
                         Nos créations sont une fusion subtile entre la richesse des saveurs méditerranéennes,
@@ -40,10 +40,10 @@ export default function CulinaryIntro() {
                 </div>
 
                 {/* Image + texte */}
-                <div className="flex flex-col items-center justify-center">
-                    <div className="w-full max-w-md rounded-xl overflow-hidden">
+                <div className="flex flex-col items-start justify-center">
+                    <div className="w-full h-[35dvh] max-w-md overflow-hidden">
                         <Image
-                            src="/images/dessert_kadibio.jpg" // adapte le chemin à ton image
+                            src="/images/IMG_2554.jpeg" // adapte le chemin à ton image
                             alt="Dessert bio raffiné"
                             width={500}
                             height={300}
@@ -55,7 +55,7 @@ export default function CulinaryIntro() {
                 {/* Bloc 3 */}
                 <div>
                     <h3 className="font-semibold text-lg mb-2">Un voyage culinaire sur-mesure</h3>
-                    <p className="text-sm leading-relaxed text-[#222220]">
+                    <p className="text-[1.8dvh] leading-relaxed text-[#222220]">
                         Que ce soit pour un dîner en tête-à-tête, un repas en famille, un événement spécial ou une grande réception,
                         nous avons à cœur de vous offrir bien plus qu’un simple repas : une véritable expérience culinaire.
                         Grâce à notre service de traiteur, de livraison et de cheffe à domicile, nous vous accompagnons dans tous vos moments précieux

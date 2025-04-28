@@ -13,22 +13,22 @@ interface Solution {
 
 const solutions: Solution[] = [
     {
-        title: "Événements & Réceptions",
-        description: "Mariages, anniversaires, séminaires… Optez pour un menu bio qui ravira vos convives avec des plats originaux et colorés.",
-        plus: "Nous adaptons nos recettes selon vos besoins, vos envies et la saison. Buffet, service à l’assiette ou finger food : à vous de choisir.",
-        image: "/images/maakouda.jpg",
+        title: "Traiteur",
+        description: " Faites vivre à vos invités une expérience gastronomique",
+        plus: "Que ce soit pour un événement professionnel ou privé, nous créons des repas à la hauteur de vos attentes : <br/> -  Repas complets <br/>-  Buffets & Cocktails <br/>- Événements d’entreprise <br/>- Réceptions privées ",
+        image: "/images/IMG_2128.jpeg",
     },
     {
-        title: "Repas du Quotidien",
-        description: "Découvrez nos plats sains et équilibrés, livrés directement chez vous.",
-        plus: "Idéal pour les familles, les étudiants et les actifs pressés. Nos plats changent chaque semaine.",
-        image: "/images/saladeAgrumes.jpg",
+        title: "Livraison",
+        description: "Votre repas bio, prêt à déguster !",
+        plus: "Passez commande, recevez-la en moins de 72h, et savourez nos plats faits maison en toute simplicité.",
+        image: "/images/IMG_2239.jpeg",
     },
     {
-        title: "Traiteur Entreprise",
-        description: "Offrez à vos collaborateurs une alimentation bio et responsable.",
-        plus: "Des formules adaptées à vos événements pros : séminaires, repas d’équipe, plateaux repas ou buffet froid.",
-        image: "/images/soupeHarira.jpg",
+        title: "Cheffe à domicile",
+        description: "Laissez la magie opérer chez vous",
+        plus: "Envie d’un dîner d’exception, cuisiné sous vos yeux ? KadiBio transforme votre cuisine en restaurant privé : Une expérience culinaire inoubliable, inspirée du mariage entre gastronomie française et méditerranéenne Un service chic et personnalisé Une cuisine raffinée, semi-gastronomique et ultra-fraîche",
+        image: "/images/IMG_2598.jpeg",
     },
 ];
 
@@ -39,11 +39,13 @@ const Solutions: React.FC = () => {
         <section className="bg-[#98B7C9] py-16 px-6 relative">
             <div className="container mx-auto">
                 {/* Titre */}
-                <h2 className="text-[#F7F6F0] text-[4rem] font-bold text-center mb-8">
-                    Le goût du bio, livré chez vous
+                <h2 className="text-[#F7F6F0] underline underline-offset-[1rem] decoration-[3px] text-[4rem] font-bold text-center mb-8">
+                    Nos Services – Un Traiteur Bio à votre mesure
                 </h2>
+                <h3 className="text-[2rem] font-bold text-center text-[#F7F6F0] mb-8">Un événement ? Un dîner ? Une célébration ?</h3>
                 <p className="text-[#F7F6F0] text-xl text-center pb-12">
-                    "Chez Kadibio, nous croyons que bien manger ne devrait pas être un luxe. Nos chefs concoctent chaque jour des plats savoureux, équilibrés et respectueux de l’environnement."
+                    KadiBio s’occupe de tout pour vous régaler avec une cuisine 100% bio, raffinée et ultra-fraîche, livrée partout en Île-de-France. <br />
+                    Nous cuisinons, nous livrons… et nous disparaissons ! Ou bien nous restons pour vous offrir un service traiteur clé en main avec prestation sur place. Et pour les occasions vraiment spéciales, nous vous proposons une expérience unique avec notre cheffe à domicile : un dîner préparé sous vos yeux, digne des plus belles tables.
                 </p>
 
                 {/* Cartes */}
