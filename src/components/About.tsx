@@ -21,7 +21,7 @@ const About: React.FC = () => {
                 <div className="w-full md:w-1/2 p-4 md:p-8">
                     <h2 className="text-4xl font-bold mb-4">À propos de Kadibio</h2>
                     <p className="text-gray-700 text-xl">
-                        ( Ici, le bio n’est pas une tendance, mais une évidence. ) Tous nos produits sont frais, de saison et 100% biologiques, soigneusement sélectionnés pour leur qualité exceptionnelle. <br /> <br />Nos créations sont une fusion subtile entre la richesse des saveurs méditerranéennes,
+                        Ici, le bio n’est pas une tendance, mais une évidence.  Tous nos produits sont frais, de saison et 100% biologiques, soigneusement sélectionnés pour leur qualité exceptionnelle. <br /> <br />Nos créations sont une fusion subtile entre la richesse des saveurs méditerranéennes,
                         notamment de la cuisine marocaine et l’élégance de la gastronomie française, dans une approche saine et raffinée.
                     </p>
 

@@ -22,7 +22,7 @@ const solutions: Solution[] = [
         title: "Livraison",
         description: "Votre repas bio, prêt à déguster !",
         plus: "Passez commande, recevez-la en moins de 72h, et savourez nos plats faits maison en toute simplicité.",
-        image: "/images/IMG_2239.jpeg",
+        image: "/images/IMG_5573.webp",
     },
     {
         title: "Cheffe à domicile",
@@ -44,7 +44,7 @@ const Solutions: React.FC = () => {
                 </h2>
                 <h3 className="text-[2rem] font-bold text-center text-[#F7F6F0] mb-8">Un événement ? Un dîner ? Une célébration ?</h3>
                 <p className="text-[#F7F6F0] text-xl text-center pb-12">
-                    KadiBio s’occupe de tout pour vous régaler avec une cuisine 100% bio, raffinée et ultra-fraîche, livrée partout en Île-de-France. <br />
+                    KadiBio s’occupe de tout pour vous régaler avec une cuisine 100% bio, raffinée et ultra-fraîche, raffinée et ultra-fraîche que nous vous livrons !  <br />
                     Nous cuisinons, nous livrons… et nous disparaissons ! Ou bien nous restons pour vous offrir un service traiteur clé en main avec prestation sur place. Et pour les occasions vraiment spéciales, nous vous proposons une expérience unique avec notre cheffe à domicile : un dîner préparé sous vos yeux, digne des plus belles tables.
                 </p>
 

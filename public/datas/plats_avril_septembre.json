@@ -6,45 +6,45 @@
         "subcategory": "Salades fraîches",
         "plats": [
           {
-            "id": "entree-salade-4",
-            "name": "Salade de carottes marinées",
-            "description": "feta, sésame",
-            "image": "/images/image12.jpeg"
-          },
-          {
             "id": "entree-salade-1",
             "name": "Salade de lentilles",
-            "description": "feta, baies de canneberge, poivrons rouges",
+            "description": "feta, baies de canneberge, poivrons rouges - 13,50 EUR",
             "image": "/images/saladeLantille.jpg"
           },
           {
             "id": "entree-salade-2",
             "name": "Salade de pommes de terre méditerranéenne",
-            "description": "olives vertes et noires, graines de courge",
+            "description": "olives vertes et noires, graines de courge - 11,50 EUR",
             "image": "/images/saladeMediteranenne.jpg"
           },
           {
             "id": "entree-salade-3",
             "name": "Salade vitalité",
-            "description": "chou rouge, chou blanc, carottes, fenouil, baies de goji et de canneberge",
+            "description": "chou rouge, chou blanc, carottes, fenouil, baies de goji et de canneberge - 9,90 EUR",
             "image": "/images/saladeVitalité.jpg"
+          },
+          {
+            "id": "entree-salade-4",
+            "name": "Salade de carottes marinées",
+            "description": "feta, sésame - 12,50 EUR",
+            "image": "/images/image12.jpeg"
           },
           {
             "id": "entree-salade-5",
             "name": "Salade vitaminée aux agrumes et carottes",
-            "description": "oranges, citrons, baies de canneberge, amandes",
+            "description": "oranges, citrons, baies de canneberge, amandes - 13,90 EUR",
             "image": "/images/saladeAgrumes.jpg"
           },
           {
             "id": "entree-salade-6",
             "name": "Zaalouk",
-            "description": "caviar d'aubergine",
+            "description": "caviar d'aubergine - 12,50 EUR",
             "image": "/images/zaalouk.jpg"
           },
           {
             "id": "entree-salade-7",
             "name": "Salade marocaine",
-            "description": "poivrons rouges et verts, tomates fraîches",
+            "description": "poivrons rouges et verts, tomates fraîches - 11,50 EUR",
             "image": "/images/saladeMarocaine.jpg"
           }
         ]
@@ -60,31 +60,31 @@
           {
             "id": "plat-couscous-1",
             "name": "Couscous aux légumes de saison",
-            "description": "Option sans gluten : semoule de sarrasin",
-            "image": "/images/image7.jpeg"
+            "description": "Option sans gluten : semoule de sarrasin - 25 EUR / personne",
+            "image": "/images/IMG_2598.jpeg"
           },
           {
             "id": "plat-couscous-2",
             "name": "Version végétarienne",
-            "description": "seitan ou saucisses végétariennes bio, seitan maison",
+            "description": "seitan fait maison - 30 EUR / personne",
             "image": "/images/couscous-veggie.jpg"
           },
           {
             "id": "plat-couscous-3",
             "name": "Version poulet",
-            "description": "couscous au poulet",
+            "description": "- 32 EUR / personne",
             "image": "/images/couscous-poulet.jpg"
           },
           {
             "id": "plat-couscous-4",
             "name": "Version agneau",
-            "description": "prix dégressif selon le nombre",
+            "description": "prix dégressif selon le nombre - 35 EUR / personne",
             "image": "/images/couscous-agneau.jpg"
           },
           {
             "id": "plat-couscous-5",
             "name": "Version veau",
-            "description": "prix dégressif selon le nombre",
+            "description": "prix dégressif selon le nombre - 38 EUR / personne",
             "image": "/images/couscous-veau.jpg"
           }
         ]
@@ -95,37 +95,31 @@
           {
             "id": "plat-tajine-1",
             "name": "Tajine de poulet",
-            "description": "olives vertes, citrons confits, légumes de saison",
+            "description": "olives vertes, citrons confits, légumes de saison - 29,90 EUR / personne",
             "image": "/images/tajine-poulet.jpg"
           },
           {
             "id": "plat-tajine-2",
             "name": "Tajine de boulettes de kefta",
-            "description": "sauce tomate maison",
+            "description": "sauce tomate maison - 22,90 EUR / personne",
             "image": "/images/tajine-kefta.jpg"
-          },
-          {
-            "id": "plat-tajine-3",
-            "name": "Option végétarienne",
-            "description": "boulettes de tofu et pois chiches",
-            "image": "/images/tajine-veggie.jpg"
           },
           {
             "id": "plat-tajine-4",
             "name": "Tajine de veau aux pruneaux et amandes",
-            "description": "",
+            "description": "- 30 EUR / personne",
             "image": "/images/tajine-pruneaux.jpg"
           },
           {
             "id": "plat-tajine-5",
             "name": "Tajine de viande aux trois légumes",
-            "description": "veau, légumes de saison",
+            "description": "veau, légumes de saison - 25 EUR / personne",
             "image": "/images/tajine-viande.jpg"
           },
           {
             "id": "plat-tajine-6",
             "name": "Tajine végétarien",
-            "description": "légumes de saison et seitan",
+            "description": "légumes de saison et seitan - 19 EUR / personne",
             "image": "/images/tajine-veggie.jpg"
           }
         ]
@@ -141,13 +135,13 @@
           {
             "id": "dessert-1",
             "name": "Briouates",
-            "description": "miel, pâte d'amande, triangles croustillants",
+            "description": "miel, pâte d'amande, triangles croustillants - 49,90 EUR / kg",
             "image": "/images/image6.jpeg"
           },
           {
             "id": "dessert-2",
             "name": "Feqqas",
-            "description": "croquants aux amandes, farine de blé et petit épeautre, sésame, anis",
+            "description": "croquants aux amandes : farine de blé et petit épeautre, amandes, sésame, anis. Issus d'une recette traditionnelle marocaine. Faits à la main avec amour, bio, parfaits pour le thé ou à emporter partout. - 49,90 EUR / kg",
             "image": "/images/feekas.jpg"
           }
         ]
@@ -158,13 +152,13 @@
           {
             "id": "dessert-3",
             "name": "Dessert végétal aux graines de chia",
-            "description": "chia, coulis mangue-passion, myrtilles, sirop maison",
+            "description": "verrine : chia, coulis mangue-fruits de la passion, myrtilles, sirop et coulis maison - 7,90 EUR / verrine",
             "image": "/images/chia.jpg"
           },
           {
             "id": "dessert-4",
             "name": "Compotée de mangue",
-            "description": "avec croquants d'amande",
+            "description": "avec croquants d'amande - 7,90 EUR",
             "image": "/images/mangue-compotee.jpg"
           }
         ]

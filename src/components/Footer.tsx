@@ -15,9 +15,9 @@ const Footer: React.FC = () => {
             <div className="bg-[#222220] text-white py-12 px-6 md:px-16 grid grid-cols-1 md:grid-cols-3 gap-12 items-start">
                 {/* Coordonnées */}
                 <div className="space-y-2 text-[#98B7C9] text-sm leading-relaxed">
-                    <p>+33 6 12 34 56 78</p>
-                    <p>hello@kadibio.com</p>
-                    <p>1 rue des saveurs, Paris 75010</p>
+                    <p>+33 6 50 94 67 08</p>
+                    <p>kadibiofr@gmail.com</p>
+                    <p>2 Rue Jean Macé 78360 </p>
                 </div>
 
                 {/* Navigation */}
