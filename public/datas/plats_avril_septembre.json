@@ -8,44 +8,43 @@
           {
             "id": "entree-salade-4",
             "name": "Salade de carottes marinées",
-            "description": "feta, sésame - 9,90 EUR",
+            "description": "feta, sésame",
             "image": "/images/image12.jpeg"
           },
           {
             "id": "entree-salade-1",
             "name": "Salade de lentilles",
-            "description": "feta, baies de canneberge, poivrons rouges - 9,90 EUR",
+            "description": "feta, baies de canneberge, poivrons rouges",
             "image": "/images/saladeLantille.jpg"
           },
           {
             "id": "entree-salade-2",
             "name": "Salade de pommes de terre méditerranéenne",
-            "description": "olives vertes et noires, graines de courge - 9,90 EUR",
+            "description": "olives vertes et noires, graines de courge",
             "image": "/images/saladeMediteranenne.jpg"
           },
           {
             "id": "entree-salade-3",
             "name": "Salade vitalité",
-            "description": "chou rouge, chou blanc, carottes, fenouil, baies de goji et de canneberge - 9,90 EUR",
+            "description": "chou rouge, chou blanc, carottes, fenouil, baies de goji et de canneberge",
             "image": "/images/saladeVitalité.jpg"
           },
-
           {
             "id": "entree-salade-5",
             "name": "Salade vitaminée aux agrumes et carottes",
-            "description": "oranges, citrons, baies de canneberge, amandes - 9,90 EUR",
+            "description": "oranges, citrons, baies de canneberge, amandes",
             "image": "/images/saladeAgrumes.jpg"
           },
           {
             "id": "entree-salade-6",
             "name": "Zaalouk",
-            "description": "caviar d'aubergine - 9,90 EUR",
+            "description": "caviar d'aubergine",
             "image": "/images/zaalouk.jpg"
           },
           {
             "id": "entree-salade-7",
             "name": "Salade marocaine",
-            "description": "poivrons rouges et verts, tomates fraîches - 9,90 EUR",
+            "description": "poivrons rouges et verts, tomates fraîches",
             "image": "/images/saladeMarocaine.jpg"
           }
         ]
@@ -61,31 +60,31 @@
           {
             "id": "plat-couscous-1",
             "name": "Couscous aux légumes de saison",
-            "description": "Option sans gluten : semoule de sarrasin - 25 EUR / personne",
+            "description": "Option sans gluten : semoule de sarrasin",
             "image": "/images/image7.jpeg"
           },
           {
             "id": "plat-couscous-2",
             "name": "Version végétarienne",
-            "description": "seitan ou saucisses végétariennes bio, seitan maison - 30 EUR / personne",
+            "description": "seitan ou saucisses végétariennes bio, seitan maison",
             "image": "/images/couscous-veggie.jpg"
           },
           {
             "id": "plat-couscous-3",
             "name": "Version poulet",
-            "description": "couscous au poulet - 32 EUR / personne",
+            "description": "couscous au poulet",
             "image": "/images/couscous-poulet.jpg"
           },
           {
             "id": "plat-couscous-4",
             "name": "Version agneau",
-            "description": "prix dégressif selon le nombre - 35 EUR / personne",
+            "description": "prix dégressif selon le nombre",
             "image": "/images/couscous-agneau.jpg"
           },
           {
             "id": "plat-couscous-5",
             "name": "Version veau",
-            "description": "prix dégressif selon le nombre - 38 EUR / personne",
+            "description": "prix dégressif selon le nombre",
             "image": "/images/couscous-veau.jpg"
           }
         ]
@@ -96,37 +95,37 @@
           {
             "id": "plat-tajine-1",
             "name": "Tajine de poulet",
-            "description": "olives vertes, citrons confits, légumes de saison - 21 EUR / personne",
+            "description": "olives vertes, citrons confits, légumes de saison",
             "image": "/images/tajine-poulet.jpg"
           },
           {
             "id": "plat-tajine-2",
             "name": "Tajine de boulettes de kefta",
-            "description": "sauce tomate maison - 18 EUR / personne",
+            "description": "sauce tomate maison",
             "image": "/images/tajine-kefta.jpg"
           },
           {
             "id": "plat-tajine-3",
             "name": "Option végétarienne",
-            "description": "boulettes de tofu et pois chiches - 18 EUR",
+            "description": "boulettes de tofu et pois chiches",
             "image": "/images/tajine-veggie.jpg"
           },
           {
             "id": "plat-tajine-4",
             "name": "Tajine de veau aux pruneaux et amandes",
-            "description": "- 30 EUR / personne",
+            "description": "",
             "image": "/images/tajine-pruneaux.jpg"
           },
           {
             "id": "plat-tajine-5",
             "name": "Tajine de viande aux trois légumes",
-            "description": "veau, légumes de saison - 25 EUR / personne",
+            "description": "veau, légumes de saison",
             "image": "/images/tajine-viande.jpg"
           },
           {
             "id": "plat-tajine-6",
             "name": "Tajine végétarien",
-            "description": "légumes de saison et seitan - 19 EUR / personne",
+            "description": "légumes de saison et seitan",
             "image": "/images/tajine-veggie.jpg"
           }
         ]
@@ -142,13 +141,13 @@
           {
             "id": "dessert-1",
             "name": "Briouates",
-            "description": "miel, pâte d'amande, triangles croustillants - 5 pour 7 EUR, 10 pour 12 EUR",
+            "description": "miel, pâte d'amande, triangles croustillants",
             "image": "/images/image6.jpeg"
           },
           {
             "id": "dessert-2",
             "name": "Feqqas",
-            "description": "croquants aux amandes, farine de blé et petit épeautre, sésame, anis - 150g : 5,50 EUR, 250g : 9 EUR, 500g : 17 EUR",
+            "description": "croquants aux amandes, farine de blé et petit épeautre, sésame, anis",
             "image": "/images/feekas.jpg"
           }
         ]
@@ -159,13 +158,13 @@
           {
             "id": "dessert-3",
             "name": "Dessert végétal aux graines de chia",
-            "description": "chia, coulis mangue-passion, myrtilles, sirop maison - 4,50 EUR / verrine",
+            "description": "chia, coulis mangue-passion, myrtilles, sirop maison",
             "image": "/images/chia.jpg"
           },
           {
             "id": "dessert-4",
             "name": "Compotée de mangue",
-            "description": "avec croquants d'amande - 4,50 EUR",
+            "description": "avec croquants d'amande",
             "image": "/images/mangue-compotee.jpg"
           }
         ]
