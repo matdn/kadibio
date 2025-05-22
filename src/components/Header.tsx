@@ -38,7 +38,7 @@ const Header: React.FC = () => {
 
                 {/* Bouton de réservation */}
                 <Link
-                    href="/reservation"
+                    href="#contact"
                     className="hidden border-1 border-black md:block text-[#222220] px-4 py-2 rounded-full text-sm font-medium hover:bg-black hover:text-[#FEF8DF] transition"
                 >
                     Réserver
